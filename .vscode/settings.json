@@ -1,0 +1,15 @@
+{
+    "git.ignoreLimitWarning": true,
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.clearOutputBeforeBuild": true,
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureSettings": {
+        "ARM_NONE_EABI_TOOLCHAIN_PATH": "${workspaceRoot}/toolchain",
+        "NRF5_SDK_PATH": "${workspaceRoot}/sdk",
+        "USE_GDB_CLIENT": 1,
+        "CMAKEBUILD_TYPE": "Debug",
+        "GDB_CLIENT_BIN_PATH": "${workspaceRoot}/toolchain/bin/arm-none-eabi-gdb",
+        "GDB_CLIENT_TARGET_REMOTE": "/dev/ttyBmpGdb"
+    }
+}

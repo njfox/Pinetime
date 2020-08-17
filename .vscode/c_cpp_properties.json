@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/libs/mynewt-nimble/ext/tinycrypt/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/drivers/nrf52/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/drivers/nrf51/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/drivers/native/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/controller/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/store/ram/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/store/config/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/bleuart/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/gatt/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/tps/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/dis/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/ias/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/lls/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/ipss/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/bas/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/gap/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/services/ans/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/mesh/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/host/util/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/transport/socket/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/transport/ram/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/transport/uart/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/transport/da1469x/cmac_driver/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/nimble/transport/emspi/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/nimble/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/targets/dummy_bsp/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/examples/linux_blemesh/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/examples/linux/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/npl/freertos/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/npl/riot/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/npl/dummy/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/npl/mynewt/include",
+                "${workspaceFolder}/src/libs/mynewt-nimble/porting/npl/linux/include"
+            ],
+            "defines": [],
+            "compilerPath": "${workspaceRoot}/toolchain/bin/arm-none-eabi-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "nRF52832",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "device": "nRF52832",
+            "armToolchainPath": "${workspaceRoot}/toolchain/bin",
+            "executable": "${workspaceRoot}/build/src/pinetime-app.out",
+            "svdFile": "${workspaceRoot}/sdk/modules/nrfx/mdk/nrf52.svd",
+            "demangle": true,
+            "servertype": "bmp",
+            "powerOverBMP": "enable",
+            "BMPGDBSerialPort": "/dev/ttyBmpGdb",
+
+        }
+    ]
+}
